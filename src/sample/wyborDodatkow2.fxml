@@ -10,8 +10,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.DodatkiController">
    <children>
       <BorderPane layoutX="-1.0" layoutY="-1.0" prefHeight="401.0" prefWidth="603.0">
          <top>
@@ -80,7 +79,7 @@
                   <HBox prefHeight="37.0" prefWidth="603.0">
                      <children>
                         <Button mnemonicParsing="false" prefHeight="37.0" prefWidth="121.0" style="-fx-background-color: yellow; -fx-border-color: black; -fx-border-radius: 6;" text="Pizza" />
-                        <Button mnemonicParsing="false" prefHeight="37.0" prefWidth="119.0" style="-fx-background-color: yellow; -fx-border-color: black; -fx-border-radius: 6;" text="Dodatki" />
+                        <Button fx:id="dodatkiButton" mnemonicParsing="false" onAction="#loadDodatkiScene" prefHeight="37.0" prefWidth="119.0" style="-fx-background-color: yellow; -fx-border-color: black; -fx-border-radius: 6;" text="Dodatki" />
                         <Button mnemonicParsing="false" prefHeight="37.0" prefWidth="122.0" style="-fx-background-color: yellow; -fx-border-color: black; -fx-border-radius: 6;" text="Miejsce" />
                         <Button mnemonicParsing="false" prefHeight="37.0" prefWidth="118.0" style="-fx-background-color: yellow; -fx-border-color: black; -fx-border-radius: 6;" text="Ruchunki" />
                         <Button mnemonicParsing="false" prefHeight="37.0" prefWidth="146.0" style="-fx-background-color: yellow; -fx-border-color: black; -fx-border-radius: 6;" text="Zamówienia" />
